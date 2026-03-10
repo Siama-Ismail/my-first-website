@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="styles.css" /> -->
+  </head>
+
+  <style>
+    .sidebar {
+      background-color: blueviolet;
+      flex: 1;
+      height: 100vh;
+      border:2px solid black;
+    }
+
+    .container {
+      width: 100%;
+      background-color: blue;
+      display: flex;
+      flex-direction: row;
+      height: 100vh;
+    }
+
+    body{
+      margin: 0;
+      padding: 0;
+    }
+
+    .content{
+      /* background-color: brown;  */
+      flex: 3;
+    }
+  </style>
+
+  <body>
+    <div class="container">
+      <div class="sidebar">
+        <div>
+          <a href="dashboard.html">Dashboard</a>
+        </div>
+        <div>
+          <a href="supplierRegistation">Suppliers</a>
+        </div>
+        </div>
+  
+      <div class="content">
+      this is the content
+      </div>
+    </div>
+  </body>
+</html>
